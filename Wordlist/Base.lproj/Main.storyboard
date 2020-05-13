@@ -120,15 +120,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="一覧" id="x0S-Fn-PsG">
-                        <barButtonItem key="leftBarButtonItem" title="もどる" id="xQk-Ju-h7W"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="GXd-yB-Mnu">
                             <connections>
                                 <segue destination="XHg-SI-8jO" kind="show" id="7Yd-od-xFd"/>
                             </connections>
                         </barButtonItem>
                         <connections>
-                            <outlet property="backBarButtonItem" destination="xQk-Ju-h7W" id="HA7-WV-mdf"/>
-                            <outlet property="leftBarButtonItem" destination="xQk-Ju-h7W" id="jRV-HJ-4qF"/>
                             <outlet property="rightBarButtonItem" destination="GXd-yB-Mnu" id="Gta-2I-bE1"/>
                         </connections>
                     </navigationItem>
